@@ -1,0 +1,17 @@
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\bin\Debug\net6.0\TesteTecnicoBHS.Infrastructure.deps.json
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\bin\Debug\net6.0\TesteTecnicoBHS.Infrastructure.runtimeconfig.json
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\bin\Debug\net6.0\TesteTecnicoBHS.Infrastructure.dll
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\bin\Debug\net6.0\TesteTecnicoBHS.Infrastructure.pdb
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\bin\Debug\net6.0\TesteTecnicoBHS.Domain.dll
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\bin\Debug\net6.0\TesteTecnicoBHS.Domain.pdb
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.AssemblyInfo.cs
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.csproj.CopyComplete
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.dll
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\refint\TesteTecnicoBHS.Infrastructure.dll
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.pdb
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\TesteTecnicoBHS.Infrastructure.genruntimeconfig.cache
+C:\Users\Augusto\source\repos\TesteTecnicoBHs\TesteTecnicoBHS.Infrastructure\obj\Debug\net6.0\ref\TesteTecnicoBHS.Infrastructure.dll
