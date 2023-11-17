@@ -16,4 +16,6 @@ Rode o comando update-database no console do gerenciamento de pacotes apontando 
 
 Rode o projeto que deve abrir em um página swagger.
 
+Augusto Noronha Leite
+
 
