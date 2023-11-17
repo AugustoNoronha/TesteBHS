@@ -1,0 +1,18 @@
+.conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table{
+    width: 100%;
+}
+
+.table-container{
+    width: 80%;
+}
+
+.button-conatiner{
+    width: 100%;
+}

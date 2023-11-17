@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>BH´s</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <header>
+            <h1 id="titlepage"></h1>
+        </header>
+    <div class="d-flex justify-content-center table-container" >
+      
+        
+
+            <table class="table">
+                <thead id="thead">
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Status</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+           
+
+        </div>
+        <div class="d-flex justify-content-evenly button-conatiner">
+            <button type="button" class="btn btn-primary" onclick="listarTodos()">Mostrar todos os produtos</button>
+            <button type="button" class="btn btn-success" onclick="listarValidos()">Mostrar somente produtos
+                ativos</button>
+        </div>
+    </div>
+ 
+
+</body>
+
+</html>
