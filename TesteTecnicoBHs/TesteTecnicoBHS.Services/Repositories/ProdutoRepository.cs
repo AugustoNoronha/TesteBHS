@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TesteTecnicoBHS.Domain.DataTransfer;
-using TesteTecnicoBHS.Domain.Interfaces;
+using TesteTecnicoBHS.Domain.Interfaces.Repositories;
 using TesteTecnicoBHS.Domain.Models;
 using TesteTecnicoBHS.Infrastructure.Data.Context;
 
@@ -17,7 +17,7 @@ namespace TesteTecnicoBHS.Services.Repositories
         public async Task CreateProduto(ProdutoDataTransfer produtoDataTransfer)
         {
             Produto addProduto = new Produto { 
-                Nome = produtoDataTransfer.Nome , 
+                Name = produtoDataTransfer.Name , 
                 Status = produtoDataTransfer.Status 
             };
 
@@ -32,6 +32,11 @@ namespace TesteTecnicoBHS.Services.Repositories
             {
                 await _context.Produtos.Where(e => e.Id == id).ExecuteDeleteAsync();
                 _context.SaveChanges();
+            }
+            else
+            {
+                throw (new Exception(message: "Item não encontrado, não foi possivel excluir"));
+
             }
         }
 
@@ -53,15 +58,21 @@ namespace TesteTecnicoBHS.Services.Repositories
         public async Task UpdateProduto(ProdutoDataTransfer produto, long id)
         {
             Produto prod = GetProdutoById(id);
-            if (produto != null)
+            if (prod != null)
             {
                 await _context.Produtos.Where(e => e.Id == id)
               .ExecuteUpdateAsync(
-                  setter => setter.SetProperty(b => b.Nome, produto.Nome)
+                  setter => setter.SetProperty(b => b.Name, produto.Name)
                   .SetProperty(b => b.Status, produto.Status)
                   );
                 _context.SaveChanges();
             }
+            else
+            {
+                throw (new Exception(message:"Item não encontrado, não foi possivel atualizar"));
+            }
         }
+
+
     }
 }

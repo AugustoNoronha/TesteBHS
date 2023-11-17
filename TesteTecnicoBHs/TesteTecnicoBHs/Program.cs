@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
-using TesteTecnicoBHS.Domain.Interfaces;
+using TesteTecnicoBHS.Domain.Interfaces.Repositories;
 using TesteTecnicoBHS.Infrastructure.Data.Context;
 using TesteTecnicoBHS.Services.Repositories;
 

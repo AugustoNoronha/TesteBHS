@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj": {}
+    "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj": {
+    "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj",
         "projectName": "TesteTecnicoBHS.Domain",
-        "projectPath": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj",
-        "packagesPath": "C:\\Users\\Augusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\obj\\",
+        "projectPath": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj",
+        "packagesPath": "C:\\Users\\gutin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Augusto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gutin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,7 +9,7 @@ namespace TesteTecnicoBHS.Domain.Models
     public class Produto
     {
         public long Id { get; set; }
-        public string Nome { get; set; } = String.Empty;
+        public string Name { get; set; } = String.Empty;
         public Boolean Status { get; set; }
 
     }

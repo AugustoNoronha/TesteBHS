@@ -8,7 +8,7 @@ namespace TesteTecnicoBHS.Domain.DataTransfer
 {
     public class ProdutoDataTransfer
     {
-        public string Nome { get; set; } = String.Empty;
+        public string Name { get; set; } = String.Empty;
         public Boolean Status { get; set; }
     }
 }

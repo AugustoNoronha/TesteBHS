@@ -1093,19 +1093,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Augusto\\.nuget\\packages\\": {}
+    "C:\\Users\\gutin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Infrastructure\\TesteTecnicoBHS.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Infrastructure\\TesteTecnicoBHS.Infrastructure.csproj",
       "projectName": "TesteTecnicoBHS.Infrastructure",
-      "projectPath": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Infrastructure\\TesteTecnicoBHS.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Augusto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Infrastructure\\TesteTecnicoBHS.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\gutin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Augusto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gutin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1119,8 +1119,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj": {
-              "projectPath": "C:\\Users\\Augusto\\source\\repos\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj"
+            "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj": {
+              "projectPath": "C:\\Users\\gutin\\OneDrive\\Documentos\\_dev\\TesteBHS\\TesteTecnicoBHs\\TesteTecnicoBHS.Domain\\TesteTecnicoBHS.Domain.csproj"
             }
           }
         }
@@ -1172,7 +1172,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
