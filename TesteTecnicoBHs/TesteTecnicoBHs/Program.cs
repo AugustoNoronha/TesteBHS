@@ -3,8 +3,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
 using TesteTecnicoBHS.Domain.Interfaces.Repositories;
+using TesteTecnicoBHS.Domain.Interfaces.Validacoes;
 using TesteTecnicoBHS.Infrastructure.Data.Context;
 using TesteTecnicoBHS.Services.Repositories;
+using TesteTecnicoBHS.Services.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
@@ -29,6 +31,8 @@ services.AddDbContext<TesteBHSContext>(options =>
 //injeção de dependencias
 
 services.AddScoped<IProdutoRepositoy, ProdutoRepository>();
+services.AddScoped<IProdutoValidations, ProdutoValidation>();
+
 
 var app = builder.Build();
 

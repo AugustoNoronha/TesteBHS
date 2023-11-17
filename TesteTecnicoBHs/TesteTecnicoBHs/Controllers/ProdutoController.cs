@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TesteTecnicoBHS.Domain.DataTransfer;
 using TesteTecnicoBHS.Domain.Interfaces.Repositories;
+using TesteTecnicoBHS.Domain.Interfaces.Validacoes;
 using TesteTecnicoBHS.Domain.Models;
 
 namespace TesteTecnicoBHs.Controllers
@@ -10,9 +11,11 @@ namespace TesteTecnicoBHs.Controllers
     public class ProdutoController : ControllerBase
     {
         private readonly IProdutoRepositoy _repository;
-        public ProdutoController(IProdutoRepositoy repository)
+        private readonly IProdutoValidations _validations;
+        public ProdutoController(IProdutoRepositoy repository, IProdutoValidations validations)
         {
             _repository = repository;
+            _validations = validations;
 
         }
 
@@ -94,6 +97,10 @@ namespace TesteTecnicoBHs.Controllers
         [HttpPost]
         public async Task<ActionResult> CreateProduto(ProdutoDataTransfer produto)
         {
+            Boolean validation = _validations.RequestBodyValidation(produto);
+            if (validation)
+            {
+
             try
             {
                 await _repository.CreateProduto(produto);
@@ -114,12 +121,25 @@ namespace TesteTecnicoBHs.Controllers
                     message = ex.Message
                 });
             }
+            }
+            else
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = "Os campos devem ser preenchidos de maneira correta"
+                });
+            }
+
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateProduto([FromRoute] long id, ProdutoDataTransfer produto)
         {
-            try
+            Boolean validation = _validations.RequestBodyValidation(produto);
+            if (validation)
+            {
+                try
             {
                 await _repository.UpdateProduto(produto, id);
 
@@ -136,6 +156,15 @@ namespace TesteTecnicoBHs.Controllers
                 {
                     success = false,
                     message = ex.Message
+                });
+            }
+            }
+            else
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = "Os campos devem ser preenchidos de maneira correta"
                 });
             }
         }
@@ -161,6 +190,7 @@ namespace TesteTecnicoBHs.Controllers
                     message = ex.Message
                 });
             }
+
         }
 
 
